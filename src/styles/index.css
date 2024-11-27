@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-style {
+        @apply text-sm border-[1px] focus:bg-secondaryHover  bg-secondary border-white border-opacity-15 focus:border-opacity-50 outline-none font-body w-full rounded-sm h-10 p-2
+    }
+}
+
